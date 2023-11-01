@@ -69,7 +69,7 @@ Cheat：
 
 這裡batch_size 是你希望同時處理的輸入量。epoch 指數據通過神經網路一次的整個週期。它們在Colaboratory Notebook 中顯示如下：
 
-image
+![image](https://github.com/XUPOWEN/neural-network/blob/main/demo.png)
 
 進行預測，建構混淆矩陣。
 
