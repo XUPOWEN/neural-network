@@ -60,7 +60,7 @@ Cheat：
 第二層和第一層一樣，不過第二層沒有input_dim 參數。
 輸出層：由於我們的輸出是0 或1，因此我們可以使用具備統一初始權重的單一單元。但是，這裡我們使用sigmoid 來活化函數。
 
-程式
+![image](https://github.com/XUPOWEN/neural-network/blob/main/classifier.png)
 
 擬合：
 運行人工神經網絡，發生反向傳播。你將在CoLaboratory 上看到所有處理過程，而不是在自己的電腦上。
