@@ -65,7 +65,7 @@ Cheat：
 擬合：
 運行人工神經網絡，發生反向傳播。你將在CoLaboratory 上看到所有處理過程，而不是在自己的電腦上。
 
-程式
+![image](https://github.com/XUPOWEN/neural-network/blob/main/ANNclass.png)
 
 這裡batch_size 是你希望同時處理的輸入量。epoch 指數據通過神經網路一次的整個週期。它們在Colaboratory Notebook 中顯示如下：
 
