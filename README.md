@@ -112,3 +112,15 @@ Cheat：
 混淆矩陣是模型做出的正確、錯誤預測的矩陣表徵。此矩陣可供個人調查哪些預測和另一種預測混淆。這是一個2×2 的混淆矩陣
 
 ![image](https://github.com/XUPOWEN/neural-network/blob/main/square.png)
+
+混淆矩阵如下所示。[cm (Shift+Enter)]
+
+![image](https://github.com/XUPOWEN/neural-network/blob/main/cm.png)
+
+上图表示：70 个真负类、1 个假正类、1 个假负类、42 个真正类。很简单。该平方矩阵的大小随着分类类别的增加而增加。
+
+这个示例中的准确率几乎达到 100%，只有 2 个错误预测。但是并不总是这样。有时你可能需要投入更多时间，研究模型的行为，提出更好、更复杂的解决方案。如果一个网络性能不够好，你需要调整超参数来改进模型。
+
+希望本文可以帮助你开始使用 Colaboratory。该教程的 Notebook 地址：https://colab.research.google.com/notebook#fileId=1aQGl_sH4TVehK8PDBRspwI4pD16xIR0r
+
+原文链接：https://medium.com/@howal/neural-networks-with-google-colaboratory-artificial-intelligence-getting-started-713b5eb07f14
