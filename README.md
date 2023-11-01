@@ -45,7 +45,7 @@ shell指令前面加上「!」。如：!pip install -q keras。這樣你就可�
 
 数据预处理：
 现在数据已经在机器上了，我们使用 pandas 将其输入到项目中。
-![image](https://github.com/XUPOWEN/neural-network/blob/main/dataset.png)
+![image](https://github.com/XUPOWEN/neural-network/blob/main/cctt.png)
 
 CoLaboratory 上的输出结果图示。
 现在，分割因变量（Dependent Variables）和自变量（Independent Variables）。
