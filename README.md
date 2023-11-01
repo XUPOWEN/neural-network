@@ -1,4 +1,4 @@
-# 谷歌Colab
+# GoogleColab
 完全雲端運行：使用Google-CoLaboratory訓練神經網路合作實驗室是一個Google研究項目，旨在幫助傳播機器學習培訓和研究成果。它是一個Jupyter筆記本環境，不需要進行任何設定就可以使用，並且完全在雲端運作。
 
 Colaboratory 筆記本儲存在 Google 雲端硬盤( https://drive.google.com/ )中，可以分享，就相當於您使用Google 檔案或表格一樣。
@@ -8,7 +8,7 @@ Colaboratory 可免費使用。論文介紹如何使用Google CoLaboratory 訓�
 
 Colaboratory 筆記本儲存在 Google 雲端硬盤( https://drive.google.com/ ) 中，可以分享，就如同您使用 Google 檔案或表單一樣。Colaboratory 可免費使用。
 
-# 聯合實驗室
+# CoLaboratory
 首先，請造訪CoLaboratory網站（http://g.co/colab），註冊後接受使用該工具的邀請。確認郵件通常需要一天才能回到您的郵箱。 CoLaboratory允許使用Google虛擬機器執行機器學習任務和建立了模型，不需要擔心計算力的問題，而且它是免費的。
 開啟CoLaboratory，會出現一個「Hello, Colaboratory」文件，包含一些基本範例。建議嘗試。
 
