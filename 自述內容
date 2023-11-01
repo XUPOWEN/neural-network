@@ -1,0 +1,25 @@
+谷歌Colab
+完全雲端運行：使用Google-CoLaboratory訓練神經網路合作實驗室是一個Google研究項目，旨在幫助傳播機器學習培訓和研究成果。它是一個Jupyter筆記本環境，不需要進行任何設定就可以使用，並且完全在雲端運作。Colaboratory 筆記本儲存在 Google 雲端硬盤( https://drive.google.com/ )中，可以分享，就相當於您使用Google 檔案或表格一樣。Colaboratory 可免費使用。論文介紹如何使用Google CoLaboratory 訓練神經網路道路。工具連結：https://colab.research.google.com/
+谷歌近期上線了協作程式編寫程式碼的內部工具Google CoLaboratory。Colaboratory是一個Google研究項目，旨在幫助傳播機器學習培訓和研究成果。它是一個Jupyter筆記本環境，不需要進行任何設定就可以使用，並且完全在雲端運行。
+Colaboratory 筆記本儲存在 Google 雲端硬盤( https://drive.google.com/ ) 中，可以分享，就如同您使用 Google 檔案或表單一樣。Colaboratory 可免費使用。
+聯合實驗室
+首先，請造訪CoLaboratory網站（http://g.co/colab），註冊後接受使用該工具的邀請。確認郵件通常需要一天才能回到您的郵箱。 CoLaboratory允許使用Google虛擬機器執行機器學習任務和建立了模型，不需要擔心計算力的問題，而且它是免費的。
+開啟CoLaboratory，會出現一個「Hello, Colaboratory」文件，包含一些基本範例。建議嘗試。
+使用CoLaboratory在Jupyter Notebook上可以寫好程式碼。寫好一些後執行(Shift + Enter)，程式碼單元下方就會產生輸出。除了寫程式碼，CoLaboratory還有技巧（trick）。你可以在notebook中
+image
+shell指令前面加上「!」。如：!pip install -q keras。這樣你就可以仔細控制正在使用的Google虛擬機。點擊上方左（選單列下）的黑色按鈕就可以找到它們的程式碼片段。
+本文旨在展示如何使用CoLaboratory 訓練神經網路。我們將展示一個在威斯康辛乳腺癌資料集上訓練神經網路的範例，資料集可在UCI 機器學習儲存庫（ http://archive.ics.uci.edu / ） ml/datasets）取得。論文的範例相對較簡單。
+這裡所使用的CoLaboratory筆記本連結：https://colab.research.google.com/notebook#fileId=1aQGl_sH4TVehK8PDBRspwI4pD16xIR0r
+深度學習
+深度學習是一種機器學習技術，它利用計算技術程式模擬了生物神經元的運作。各層中的神經元網路不斷將資訊從輸入傳輸到輸出，直到其權重調整到可以產生反映特徵和目標之間存在底層關係的算法。
+Keras
+是一種建構人工神經網路的高階API。它使用TensorFlow 或Theano 後端執行內部運作。要安裝Keras，必須先安裝TensorFlow。CoLaboratory 已經在虛擬機器上安裝了TensorFlow。使用以下指令可以檢查是否安裝TensorFlow：
+!pip show tensorflow
+你也可以使用!pip install tensorflow==1.2，安裝特定版本的TensorFlow。
+另外，如果你更喜歡用Theano 後端，可以閱讀該文件： https://keras.io/backend/ 。
+安裝Keras
+!pip install -q keras
+程式
+使用Sequential 和Dense 類別指定神經網路的節點、連接和規格。如上所示，我們將使用這些自訂網路的參數並進行調整。
+為了初始化神經網絡，我們將建立一個Sequential 類別的物件。
+程式
