@@ -20,7 +20,7 @@ Colaboratory 筆記本儲存在 Google 雲端硬盤( https://drive.google.com/ )
 
 你可以在notebook中
 
-![image](https://github.com/XUPOWEN/neural-network/blob/main/ANN.png)
+
 shell指令前面加上「!」。如：!pip install -q keras。這樣你就可以仔細控制正在使用的Google虛擬機。點擊上方左（選單列下）的黑色按鈕就可以找到它們的程式碼片段。
 本文旨在展示如何使用CoLaboratory 訓練神經網路。我們將展示一個在威斯康辛乳腺癌資料集上訓練神經網路的範例，資料集可在UCI 機器學習儲存庫（ http://archive.ics.uci.edu / ） ml/datasets）取得。論文的範例相對較簡單。
 這裡所使用的CoLaboratory筆記本連結：https://colab.research.google.com/notebook#fileId=1aQGl_sH4TVehK8PDBRspwI4pD16xIR0r
@@ -47,7 +47,7 @@ shell指令前面加上「!」。如：!pip install -q keras。這樣你就可�
 使用Sequential 和Dense 類別指定神經網路的節點、連接和規格。如上所示，我們將使用這些自訂網路的參數並進行調整。
 為了初始化神經網絡，我們將建立一個Sequential 類別的物件。
 
-程式
+![image](https://github.com/XUPOWEN/neural-network/blob/main/ANN.png)
 
 現在，我們要來設計網路。
 對於每個隱藏層，我們需要定義三個基本參數：units、kernel_initializer 和activation。units 參數定義每層包含的神經元數量。Kernel_initializer 定義神經元在輸入資料上執行時的初始權重（詳見 https://faroit.github.io/keras-docs/1.2.2/initializations/ ）。activation 定義資料的激活函數。
