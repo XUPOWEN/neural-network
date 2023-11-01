@@ -49,14 +49,15 @@ shell指令前面加上「!」。如：!pip install -q keras。這樣你就可�
 
 CoLaboratory 上的输出结果图示。
 现在，分割因变量（Dependent Variables）和自变量（Independent Variables）。
-image
+![image](https://github.com/XUPOWEN/neural-network/blob/main/value.png)
 
 Y 包含一列，其中的「M」和「B」分别代表「是」（恶性）和「否」（良性）。我们需要将其编码成数学形式，即「1」和「0」。可以使用 Label Encoder 类别完成该任务。
-image
+
+![image](https://github.com/XUPOWEN/neural-network/blob/main/encoder.png)
 
 （如果数据类别多于两类，则使用 OneHotEncoder）
 现在数据已经准备好，我们将其分割成训练集和测试集。在 Scikit-Learn 中使用 train_test_split 可以轻松完成该工作。
-image
+![image](https://github.com/XUPOWEN/neural-network/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-11-01%20231746.png)
 
 参数 test_size = 0.2 定义测试集比例。这里，我们将训练集设置为数据集的 80%，测试集占数据集的 20%。
 # Keras
