@@ -12,7 +12,11 @@ Colaboratory 筆記本儲存在 Google 雲端硬盤( https://drive.google.com/ )
 首先，請造訪CoLaboratory網站（http://g.co/colab），註冊後接受使用該工具的邀請。確認郵件通常需要一天才能回到您的郵箱。 CoLaboratory允許使用Google虛擬機器執行機器學習任務和建立了模型，不需要擔心計算力的問題，而且它是免費的。
 開啟CoLaboratory，會出現一個「Hello, Colaboratory」文件，包含一些基本範例。建議嘗試。
 
-使用CoLaboratory在Jupyter Notebook上可以寫好程式碼。寫好一些後執行(Shift + Enter)，程式碼單元下方就會產生輸出。除了寫程式碼，CoLaboratory還有技巧（trick）。
+使用CoLaboratory在Jupyter Notebook上可以寫好程式碼。寫好一些後執行(Shift + Enter)，程式碼單元下方就會產生輸出。
+
+image
+
+除了寫程式碼，CoLaboratory還有技巧（trick）。
 
 你可以在notebook中
 image
