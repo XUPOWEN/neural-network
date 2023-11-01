@@ -73,7 +73,7 @@ Cheat：
 
 進行預測，建構混淆矩陣。
 
-程式
+![image](https://github.com/XUPOWEN/neural-network/blob/main/square.png)
 
 訓練網路後，就可以在X_test set 上進行預測，以檢查模型在新資料上的效能。在程式碼單元中輸入和執行cm 查看結果。
 
