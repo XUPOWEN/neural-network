@@ -19,7 +19,7 @@ Colaboratory 筆記本儲存在 Google 雲端硬盤( https://drive.google.com/ )
 除了寫程式碼，CoLaboratory還有技巧（trick）。
 
 你可以在notebook中
-image
+![image](https://github.com/XUPOWEN/neural-network/blob/main/ANN.png)
 shell指令前面加上「!」。如：!pip install -q keras。這樣你就可以仔細控制正在使用的Google虛擬機。點擊上方左（選單列下）的黑色按鈕就可以找到它們的程式碼片段。
 本文旨在展示如何使用CoLaboratory 訓練神經網路。我們將展示一個在威斯康辛乳腺癌資料集上訓練神經網路的範例，資料集可在UCI 機器學習儲存庫（ http://archive.ics.uci.edu / ） ml/datasets）取得。論文的範例相對較簡單。
 這裡所使用的CoLaboratory筆記本連結：https://colab.research.google.com/notebook#fileId=1aQGl_sH4TVehK8PDBRspwI4pD16xIR0r
