@@ -26,6 +26,8 @@ shell指令前面加上「!」。如：!pip install -q keras。這樣你就可�
 
 # 深度學習
 深度學習是一種機器學習技術，它利用計算技術程式模擬了生物神經元的運作。各層中的神經元網路不斷將資訊從輸入傳輸到輸出，直到其權重調整到可以產生反映特徵和目標之間存在底層關係的算法。
+
+要想更多地了解神经网络，推荐阅读这篇论文《Artificial Neural Networks for Beginners》（https://arxiv.org/pdf/cs/0308031.pdf）。
 # Keras
 是一種建構人工神經網路的高階API。它使用TensorFlow 或Theano 後端執行內部運作。要安裝Keras，必須先安裝TensorFlow。CoLaboratory 已經在虛擬機器上安裝了TensorFlow。
 
