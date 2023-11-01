@@ -29,6 +29,36 @@ shell指令前面加上「!」。如：!pip install -q keras。這樣你就可�
 深度學習是一種機器學習技術，它利用計算技術程式模擬了生物神經元的運作。各層中的神經元網路不斷將資訊從輸入傳輸到輸出，直到其權重調整到可以產生反映特徵和目標之間存在底層關係的算法。
 
 要想更多地了解神经网络，推荐阅读这篇论文《Artificial Neural Networks for Beginners》（https://arxiv.org/pdf/cs/0308031.pdf）。
+
+# 代碼
+打开 CoLaboratory，出现一个新的 untitled.ipynb 文件供你使用。
+
+谷歌允许使用其服务器上的一台 linux 虚拟机，这样你可以访问终端为项目安装特定包。如果你只在代码单元中输入 !ls 命令（记得命令前加!），那么你的虚拟机中会出现一个 datalab 文件夹。
+
+image
+
+我们的任务是将数据集放置到该机器上，这样我们的 notebook 就可以访问它。你可以使用以下代码：
+image
+
+输入 !ls 命令，检查机器上是否有该文件。你将看到 datalab 文件夹和 breast_cancer_data.csv 文件。
+image
+
+数据预处理：
+现在数据已经在机器上了，我们使用 pandas 将其输入到项目中。
+image
+
+CoLaboratory 上的输出结果图示。
+现在，分割因变量（Dependent Variables）和自变量（Independent Variables）。
+image
+
+Y 包含一列，其中的「M」和「B」分别代表「是」（恶性）和「否」（良性）。我们需要将其编码成数学形式，即「1」和「0」。可以使用 Label Encoder 类别完成该任务。
+image
+
+（如果数据类别多于两类，则使用 OneHotEncoder）
+现在数据已经准备好，我们将其分割成训练集和测试集。在 Scikit-Learn 中使用 train_test_split 可以轻松完成该工作。
+image
+
+参数 test_size = 0.2 定义测试集比例。这里，我们将训练集设置为数据集的 80%，测试集占数据集的 20%。
 # Keras
 是一種建構人工神經網路的高階API。它使用TensorFlow 或Theano 後端執行內部運作。要安裝Keras，必須先安裝TensorFlow。CoLaboratory 已經在虛擬機器上安裝了TensorFlow。
 
