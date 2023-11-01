@@ -14,7 +14,7 @@ Colaboratory 筆記本儲存在 Google 雲端硬盤( https://drive.google.com/ )
 
 使用CoLaboratory在Jupyter Notebook上可以寫好程式碼。寫好一些後執行(Shift + Enter)，程式碼單元下方就會產生輸出。
 
-image
+![image](https://github.com/XUPOWEN/neural-network/blob/main/731851.png)
 
 除了寫程式碼，CoLaboratory還有技巧（trick）。
 
