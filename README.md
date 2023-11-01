@@ -73,11 +73,11 @@ Cheat：
 
 進行預測，建構混淆矩陣。
 
-![image](https://github.com/XUPOWEN/neural-network/blob/main/square.png)
+![image](https://github.com/XUPOWEN/neural-network/blob/main/2c2.png)
 
 訓練網路後，就可以在X_test set 上進行預測，以檢查模型在新資料上的效能。在程式碼單元中輸入和執行cm 查看結果。
 
 混淆矩陣
 混淆矩陣是模型做出的正確、錯誤預測的矩陣表徵。此矩陣可供個人調查哪些預測和另一種預測混淆。這是一個2×2 的混淆矩陣
 
-image
+![image](https://github.com/XUPOWEN/neural-network/blob/main/square.png)
