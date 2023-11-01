@@ -35,17 +35,17 @@ shell指令前面加上「!」。如：!pip install -q keras。這樣你就可�
 
 谷歌允许使用其服务器上的一台 linux 虚拟机，这样你可以访问终端为项目安装特定包。如果你只在代码单元中输入 !ls 命令（记得命令前加!），那么你的虚拟机中会出现一个 datalab 文件夹。
 
-image
+![image](https://github.com/XUPOWEN/neural-network/blob/main/ls.png)
 
 我们的任务是将数据集放置到该机器上，这样我们的 notebook 就可以访问它。你可以使用以下代码：
-image
+![image](https://github.com/XUPOWEN/neural-network/blob/main/ls2.png)
 
 输入 !ls 命令，检查机器上是否有该文件。你将看到 datalab 文件夹和 breast_cancer_data.csv 文件。
-image
+![image](https://github.com/XUPOWEN/neural-network/blob/main/ls3.png)
 
 数据预处理：
 现在数据已经在机器上了，我们使用 pandas 将其输入到项目中。
-image
+![image](https://github.com/XUPOWEN/neural-network/blob/main/dataset.png)
 
 CoLaboratory 上的输出结果图示。
 现在，分割因变量（Dependent Variables）和自变量（Independent Variables）。
